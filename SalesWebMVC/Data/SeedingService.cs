@@ -71,7 +71,7 @@ namespace SalesWebMVC.Data
             SalesRecord r30 = new SalesRecord(30, new DateTime(2018, 10, 12), 5000.0, SalesStatus.Billed, s2);
 
             _context.Department.AddRange(d1, d2, d3, d4);
-            _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
+            _context.Seller.AddRange(s1, s2, s3, s4, s5, s6, s7, s8, s9, s10);
 
             _context.SalesRecord.AddRange(
                 r1, r2, r3, r4, r5, r6, r7, r8, r9, r10,
